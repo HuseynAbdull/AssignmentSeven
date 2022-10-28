@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    margin: 0 17rem;
+}
+
+.header-all{
+    padding: 40px 0 20px 0;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.navbar span{
+    color: black;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: .1em;
+    cursor: pointer;
+    margin-right:25px; 
+}
+  
+
+.logo img{
+    width: 50%;
+}
+
+.login span{
+    color: black;
+}
+
+.login i{
+    color: black;
+}
+
+.login a{
+    margin-left: 25px;
+}
+
+.picture{
+    width: 50%;
+
+}
+
+.text{
+    width: 45%;
+    margin-top: 25rem;
+    margin-left: 10rem;
+}
+
+.text h1{
+    margin-bottom: 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.text p{
+    color: gray;
+    font-size: 15px;
+}
+
+.homepage{
+    margin: 0 7rem;
+}
+
+.homepage-all{
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3;
+    width: 100%;
+    
+}
+
+.picture img{
+    width: 70%;
+   margin-top:10rem; 
+}
+
+.all-filter{
+    margin-top: 5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.filternav a{
+    margin-right: 25px;
+    color: black;
+    font-size: 14px;
+    line-height: 23px;
+    letter-spacing: .1em;
+    cursor: pointer;
+    margin-right:25px;
+}
+
+.buttons-all{
+    display: flex;
+}
+
+.a-buttons-all{
+    display: flex;
+}
+
+.a-buttons-all a{
+    color: gray;
+    letter-spacing: 2px;
+}
+
+.filter-button h6{
+    letter-spacing: 2px;
+    color: #080808;
+}
+
+.filter-boxs-all{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 10rem;
+}
+
+.filter-box{
+    width: 24%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.filter-box img{
+    width: 83%;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.filter-box a{
+    color: #080808;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.filter-box p{
+    color: gray;
+    font-size: 14px;
+    margin-top: 0.8rem;
+}
+
+.footer-top-all-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top{
+    margin-bottom: 10rem;
+}
+
+.footer-top-box a{
+    display: block;
+    color: #929292;
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+}
+
+.footer-top-box h4{
+    font-size: 16px;
+    color: #080808;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.footer-bottom-all{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer-bottom-right{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-bottom-right span{
+    font-size: 14px;
+    color: #929292;
+    margin-right: 5px;
+}
+
+.footer-bottom-right i{
+    margin-left: 15px;
+}
+.footer-bottom-logo a{
+    color: #080808;
+}
+
+.footer-bottom-logo:hover a{
+    color: #929292;
+}
+
+.footer-bottom-left span{
+    color: #929292;
+    font-size: 12px;
+}
+
+.filter-box-top{
+    position: relative;
+    overflow: hidden;
+}
+
+.filter-box-top span{
+    position: absolute;
+    padding: 5px;
+    bottom: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+    font-size: 14px;
+    color: #ffff;
+    background-color: #080808;
+}
+
+.filter-box:hover .filter-box-top span{
+    bottom: 1rem;
+}
+
+.filter-box-bottom{
+    position: relative;
+}
+
+.filter-box-bottom .add_cart{
+    position: absolute;
+    left: -7rem;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.filter-box:hover .filter-box-bottom .add_cart{
+    left: 5.5rem;
+}
+
+.filter-box:hover .filter-box-bottom .money{
+    opacity: 0%;
+}
+
+
+
+
